@@ -1,0 +1,18 @@
+﻿@Master['Master']
+
+@Section['Content']
+<div class="pageTitle">Main Page</div>
+<div>
+    @Each.LogMessages
+    <div class="container_4">
+        <div class="grid_1">
+            @Current
+        </div>
+    </div>
+    @EndEach
+</div>
+@EndSection
+
+@Section['Other']
+This area can be used to display other helpful information.
+@EndSection
